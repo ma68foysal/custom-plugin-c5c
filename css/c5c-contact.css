@@ -1,0 +1,126 @@
+/* Contact Page Hero Section CSS */
+.contact-hero-container .contact-hero-image {
+  width: 100%;
+  max-height: 500px;
+  height: auto;
+  border-radius: 24px;
+}
+/* Contact page Link Section CSS */
+.c5c-contact-links-container {
+  padding: 100px 43.5px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.c5c-contact-links-container .c5c-contact-links-service {
+  max-width: 992px;
+  text-wrap: wrap;
+}
+.c5c-contact-links-container .c5c-contact-links-service h2 {
+  font-size: 50px;
+  line-height: 75px;
+  font-weight: 400;
+  color: rgba(148, 148, 148, 1);
+}
+.c5c-contact-links-container .c5c-contact-links-service h2 span {
+  color: rgba(30, 30, 30, 1);
+}
+.c5c-contact-links-container .c5c-contact-links-service div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+}
+.c5c-contact-links-container
+  .c5c-contact-links-service
+  .c5c-contact-links-service-button {
+  background-color: rgba(35, 65, 130, 1);
+  color: rgba(196, 196, 196, 1);
+  width: fit-content;
+  height: fit-content;
+  padding: 15px 20px;
+  font-size: 15px;
+  line-height: 22.5px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+}
+
+.c5c-contact-links-container .c5c-contact-links-company {
+  display: flex;
+  justify-content: end;
+  gap: 24px;
+}
+.c5c-contact-links-container
+  .c5c-contact-links-company
+  .c5c-contact-links-social {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  padding: 26px 24px;
+  background-color: rgba(244, 244, 244, 1);
+  border-radius: 24px;
+}
+.c5c-contact-links-container
+  .c5c-contact-links-company
+  .c5c-contact-links-social
+  a {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 16px;
+  border-radius: 8px;
+  width: 64px;
+  height: 64px;
+}
+.c5c-contact-links-container
+  .c5c-contact-links-company
+  .c5c-contact-links-social
+  a
+  img {
+  width: 32px;
+  height: 32px;
+}
+
+.c5c-contact-links-container
+  .c5c-contact-links-company
+  .c5c-contact-links-email-phone {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: rgba(244, 244, 244, 1);
+  border-radius: 24px;
+  padding: 24px;
+}
+.c5c-contact-links-container
+  .c5c-contact-links-company
+  .c5c-contact-links-email-phone
+  p:first-child {
+  color: rgba(33, 33, 33, 0.7);
+  font-size: 16px;
+  line-height: 19.36px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+.c5c-contact-links-container
+  .c5c-contact-links-company
+  .c5c-contact-links-email-phone
+  p:nth-child(2) {
+  color: rgba(75, 75, 75, 1);
+  font-size: 32px;
+  line-height: 38.73px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+
+/* Contact Page Map CSS */
+.c5c-contact-map-container {
+  background-color: rgba(255, 255, 255, 1);
+}
+.c5c-contact-map-container .c5c-contact-map {
+  width: 100%;
+  max-height: 500px;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border: none;
+  border-radius: 24px;
+}

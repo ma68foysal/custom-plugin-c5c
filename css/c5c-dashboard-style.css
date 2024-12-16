@@ -1,0 +1,66 @@
+
+    /* Basic styles for dashboard */
+    .c5c-dashboard-wrapper {
+        display: flex;
+    }
+    .c5c-dashboard-sidebar {
+        width: 250px;
+        background: #f1f1f1;
+        padding: 20px;
+    }
+    .c5c-dashboard-main {
+        flex-grow: 1;
+        padding: 20px;
+    }
+    .c5c-file-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 20px;
+    }
+    .c5c-file-item {
+        border: 1px solid #ddd;
+        padding: 10px;
+    }
+
+
+
+/* Modal Background */
+#uploadSuccessModal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.7); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fff; /* White background */
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px; /* Padding */
+    border: 1px solid #888; /* Border */
+    width: 80%; /* Width of modal */
+    max-width: 500px; /* Max width */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow */
+}
+
+/* Close Button */
+.close-button {
+    color: #aaa; /* Gray color */
+    float: right; /* Float to the right */
+    font-size: 28px; /* Font size */
+    font-weight: bold; /* Bold */
+    cursor: pointer; /* Pointer cursor */
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: black; /* Change color on hover */
+    text-decoration: none; /* No underline */
+    cursor: pointer; /* Pointer cursor */
+}

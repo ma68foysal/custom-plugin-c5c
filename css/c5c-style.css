@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url("../assets/images/page-background.png");
+    background-size: cover;
+    background-position: top;
+}
+.c5c-main {
+    flex-grow: 1; /* This will allow the main content to take up available space */
+}
+
+.c5c-container {
+    max-width: 1512px;
+    margin: 0 auto;
+}
+
+/* Navbar CSS File */
+.c5c-header {
+    padding-top: 32px;
+}
+.c5c-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.c5c-nav-container .c5c-nav-menu {
+    background-color: rgba(236, 236, 236, 0.6);
+    display: flex;
+    gap: 42px;
+    padding: 13.5px 24px;
+    border-radius: 8px;
+}
+.c5c-nav-container .c5c-nav-menu .c5c-nav-link {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: rgba(75, 75, 75, 1);
+}
+.c5c-nav-container .c5c-nav-menu .c5c-nav-link.active {
+    font-weight: 600;
+    color: rgba(30, 30, 30, 1);
+}
+
+.c5c-container .c5c-nav-container .c5c-header-contact-button {
+    background-color: rgba(35, 65, 130, 1);
+    color: rgba(196, 196, 196, 1);
+    width: fit-content;
+    height: fit-content;
+    padding: 15px 20px;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+}
+
+/* Footer CSS */
+
+.c5c-footer {
+    background: rgba(255, 255, 255, 1);
+}
+
+.c5c-footer-container {
+    padding: 60px 43.5px 0 43.5px;
+}
+.c5c-footer-container .c5c-footer-item-logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.c5c-footer-container .c5c-footer-item-logos .c5c-footer-item-logos-social {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.c5c-footer-container .c5c-footer-item-logos .c5c-footer-item-logos-social a {
+    text-decoration: none;
+    width: 64px;
+    height: 64px;
+    background-color: rgba(244, 245, 246, 1);
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.c5c-footer-container
+    .c5c-footer-item-logos
+    .c5c-footer-item-logos-social
+    a
+    .c5c-footer-item-logo-social {
+    width: 32px;
+    height: 32px;
+}
+
+.c5c-footer-container .c5c-footer-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
+.c5c-footer-item-links {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 11px;
+}
+.c5c-footer-item-links h3 {
+    color: rgba(33, 33, 33, 1);
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+}
+.c5c-footer-item-links .c5c-footer-item-link {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.c5c-footer-item-links .c5c-footer-item-link a {
+    text-decoration: none;
+    color: rgba(33, 33, 33, 0.7);
+    font-size: 16px;
+    line-height: 19.36px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
+
+.c5c-footer-item-services {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 11px;
+}
+.c5c-footer-item-services h3 {
+    color: rgba(33, 33, 33, 1);
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+}
+.c5c-footer-item-services .c5c-footer-item-service {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.c5c-footer-item-services .c5c-footer-item-service a {
+    text-decoration: none;
+    color: rgba(33, 33, 33, 0.7);
+    font-size: 16px;
+    line-height: 19.36px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
+
+.c5c-footer-item-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 11px;
+}
+.c5c-footer-item-contacts h3 {
+    color: rgba(33, 33, 33, 1);
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+}
+.c5c-footer-item-contacts .c5c-footer-item-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.c5c-footer-item-contacts .c5c-footer-item-contact p {
+    text-decoration: none;
+    color: rgba(33, 33, 33, 0.7);
+    font-size: 16px;
+    line-height: 19.36px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
+
+.c5c-footer-copyright {
+    background-color: rgba(236, 236, 236, 0.6);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 19.36px;
+    font-weight: 400;
+    padding: 14.5px 24px;
+    color: rgba(33, 33, 33, 0.7);
+    border-radius: 8px;
+    margin-top: 60px;
+    margin-bottom: 32px;
+}
+.c5c-footer-copyright span {
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 768px) {
+    .c5c-container {
+        padding: 0 38px;
+    }
+}
+@media only screen and (max-width: 767.99px) {
+    .c5c-container {
+        padding: 0 16px;
+    }
+}
